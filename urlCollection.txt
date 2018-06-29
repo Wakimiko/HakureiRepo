@@ -1,0 +1,32 @@
+#This file is for use of storage of urls.
+#Generally, IPv4 allocated in LAN is stored.
+
+############
+#Following lines are from administration page of router
+HC5661A - 1.4.10.20837s		立即检查
+#This file is for use of storage of urls.
+#Generally, IPv4 allocated in LAN is stored.
+
+192.168.199.1
+192.168.199.241
+192.168.199.
+互联网信息
+IPv4地址	172.18.144.124 / 255.255.252.0(DHCP) 切换上网方式
+网关地址	172.18.147.254
+DNS地址	8.8.8.8 / 1.1.1.1
+MAC地址	D4:EE:07:42:0B:EB
+局域网信息
+IPv4地址	192.168.199.1 / 255.255.255.0 修改管理地址
+IPv6地址	fe80::d6ee:7ff:fe42:bea / 255.255.255.0
+MAC地址	D4:EE:07:42:0B:EA(保修专用)
+
+路由器信息
+外网IP地址         WAN口IP地址
+120.236.174.136	   172.18.144.124
+ 添加转发规则 虚拟端口转发
+编号  外部    内部    IP地址            协议
+1     23333   22      192.168.199.241	TCP/UDP	
+2     23334   22      192.168.199.164	TCP/UDP	
+3     19810   1919    192.168.199.145	TCP/UDP	
+4     23335   80      192.168.199.1	TCP/UDP	
+DMZ 主机???
